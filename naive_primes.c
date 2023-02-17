@@ -15,7 +15,7 @@ static inline int is_prime(unsigned short n) {
 
 int main() {
     unsigned short i;
-    unsigned short* buffer = malloc(BUFFER_SIZE*sizeof(short));
+    unsigned short* buffer = malloc(BUFFER_SIZE*sizeof(unsigned short));
     unsigned short count = 0;
     for (i = 2; i <= 65000; i++) {
         if (is_prime(i)) {
@@ -27,5 +27,6 @@ int main() {
         }
     }
     printf("count: %d, last prime: %d", count, buffer[count-1]);
+    free(buffer);
     return 0;
 }
