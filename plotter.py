@@ -22,14 +22,14 @@ if __name__ == "__main__":
                             if "Total Elapsed Time (sec)" in line:
                                 time_values.append(float(line.split("=")[-1].strip()))
         violin_data["energy"].append(energy_values)
-        violin_data["time"].append(time_values)
+        violin_data["time"].append(np.log10(time_values))
         labels.append(folder)
     
-    for xx in ["energy", "time"]:
+    for xx in ["energy"]:
         fig, ax = plt.subplots()
         ax.set_title('Benchmarks')
         ax.set_xlabel('Language')
-        ax.set_ylabel('Cumulative Processor Energy_0 (Joules)')
+        ax.set_ylabel('Cumulative Processor Energy_0 Joules')
         ax.violinplot(violin_data[xx], showmedians=True, showextrema=True)
 
         # Add x-axis labels
