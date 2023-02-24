@@ -1,5 +1,5 @@
 CC = gcc
-CFLAGS = -O3 -funroll-loops
+CFLAGS = -O3 -march=native -funroll-loops
 
-naive_primes: naive_primes.c
-	$(CC) $(CFLAGS) -o naive_primes.exe naive_primes.c
+point_dist: point_dist.c
+	$(CC) $(CFLAGS) -o point_dist.exe point_dist.c
