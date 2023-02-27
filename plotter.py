@@ -46,8 +46,10 @@ if __name__ == "__main__":
     ax.set_ylabel('Cumulative Processor Energy [J]')
     ax.grid(True)
     for i in range(3):
+        print(violin_data)
         print(np.corrcoef(violin_data["time"][i], violin_data["energy"][i])[1][0])
-        ax.scatter(violin_data["time"][i], violin_data["energy"][i])
+        ax.scatter(violin_data["time"][i], violin_data["energy"][i], label=labels[i])
+    ax.legend()
 
     # Show the plot
     plt.show()
