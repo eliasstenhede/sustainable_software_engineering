@@ -29,6 +29,7 @@ if __name__ == "__main__":
     ax.set_title('Benchmarks of energy consumption')
     ax.set_xlabel('Language')
     ax.set_ylabel('Cumulative Processor Energy [J]')
+    ax.set_yscale('log')
     ax.grid(True)
     ax.violinplot(violin_data["energy"], showmedians=True, showextrema=True)
 
@@ -44,6 +45,8 @@ if __name__ == "__main__":
     ax.set_title('Correlation Between Time Elapsed and Energy Consumption')
     ax.set_xlabel('Time Elapsed [S]')
     ax.set_ylabel('Cumulative Processor Energy [J]')
+    ax.set_yscale('log')
+    ax.set_xscale('log')
     ax.grid(True)
     for i in range(3):
         ax.scatter(violin_data["time"][i], violin_data["energy"][i], label=labels[i])
