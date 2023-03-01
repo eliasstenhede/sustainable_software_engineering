@@ -1,0 +1,22 @@
+System Time,RDTSC,Elapsed Time (sec), CPU Utilization(%),CPU Frequency_0(MHz),Processor Power_0(Watt),Cumulative Processor Energy_0(Joules),Cumulative Processor Energy_0(mWh),IA Power_0(Watt),Cumulative IA Energy_0(Joules),Cumulative IA Energy_0(mWh),Package Temperature_0(C),Package Hot_0,DRAM Power_0(Watt),Cumulative DRAM Energy_0(Joules),Cumulative DRAM Energy_0(mWh),GT Power_0(Watt),Cumulative GT Energy_0(Joules),Cumulative GT Energy_0(mWh),Package PL1_0(Watt),Package PL2_0(Watt),Package PL4_0(Watt),Platform PsysPL1_0(Watt),Platform PsysPL2_0(Watt),GT Frequency(MHz),GT Utilization(%)
+16:31:52:415, 551558913709780,    0.105,   19.000, 1000,   5.885,   0.619,   0.172,   3.714,   0.391,   0.109, 33,  0,   0.000,   0.000,   0.000,   0.489,   0.051,   0.014,  15.000,  25.000,   0.000,  15.000,   0.000,99999999,   0.000
+16:31:52:416, 551558915287349,    0.106,   21.000, 1000,   3.528,   0.621,   0.173,   1.393,   0.392,   0.109, 33,  0,   0.000,   0.000,   0.000,   0.000,   0.051,   0.014,  15.000,  25.000,   0.000,  15.000,   0.000,99999999,   0.000
+
+Total Elapsed Time (sec) = 0.105825
+Measured RDTSC Frequency (GHz) = 2.400
+
+Cumulative Processor Energy_0 (Joules) = 0.621216
+Cumulative Processor Energy_0 (mWh) = 0.172560
+Average Processor Power_0 (Watt) = 5.870192
+
+Cumulative IA Energy_0 (Joules) = 0.391541
+Cumulative IA Energy_0 (mWh) = 0.108761
+Average IA Power_0 (Watt) = 3.699871
+
+Cumulative DRAM Energy_0 (Joules) = 0.000000
+Cumulative DRAM Energy_0 (mWh) = 0.000000
+Average DRAM Power_0 (Watt) = 0.000000
+
+Cumulative GT Energy_0 (Joules) = 0.051392
+Cumulative GT Energy_0 (mWh) = 0.014275
+Average GT Power_0 (Watt) = 0.485626
