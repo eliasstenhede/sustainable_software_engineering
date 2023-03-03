@@ -1,10 +1,7 @@
 # Energy measurements
 
 For this project you need to install:
-  gcc
-  python with numpy and matplotlib
-  matlab
-  intel power gadget
+GCC, Python with numpy and matplotlib, Matlab and Intel power gadget
 
 To create data, setup your pc with ideal testing conditions, then run runfiles.bat
 
